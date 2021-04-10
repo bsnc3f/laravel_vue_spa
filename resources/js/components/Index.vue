@@ -13,6 +13,13 @@
           {{ message }}
       <h2>sort_Key = {{ sort_key }}: {{ sort_asc ? '昇順' : '降順'}}</h2>
 
+        <!-- フラッシュメッセージ
+        @if (session('flash_message'))
+            <div class="flash_message bg-success text-center py-3 my-0">
+                {{ session('flash_message') }}
+            </div>
+        @endif -->
+
       <table class="tableList" ref="table">
         <!-- <thead class="thead-light"> -->
         <thead>
@@ -44,7 +51,7 @@
         </thead>
           <tbody>
             <!-- betweenで分岐 -->
-            <tr v-for="(book, index) in filterdValue" :key="book.id" v-cloak v-if="isShow(index)">
+            <tr v-for="(book, index) in filterdValue" :key="book.id" v-cloak>
             <!-- 有効／無効で分岐 -->
             <!-- <tr v-for="(book, index) in filterdValue" :key="book.id" v-cloak v-if="books[index].isValid == true"> -->
             <!-- 全表示 -->
@@ -275,7 +282,7 @@ export default {
     },
     isShow: function() {
       return function(id) {
-      if(this.books[id].startTime < this.test_set && this.test_set this.books[id].endTime) {
+      if(this.books[id].startTime < this.test_set && this.test_set < this.books[id].endTime) {
       // if(this.books[id].startTime > this.test_set && this.test_now < this.books[id].endTime) {
         return this.caution2 = true;
       }

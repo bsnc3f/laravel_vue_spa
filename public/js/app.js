@@ -2448,9 +2448,298 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Index.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: c:\\laravel\\vue_spa\\resources\\js\\components\\Index.vue: Unexpected token, expected \")\" (278:67)\n\n\u001b[0m \u001b[90m 276 |\u001b[39m     isShow\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m() {\u001b[0m\n\u001b[0m \u001b[90m 277 |\u001b[39m       \u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(id) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 278 |\u001b[39m       \u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mbooks[id]\u001b[33m.\u001b[39mstartTime \u001b[33m<\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtest_set \u001b[33m&&\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtest_set \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mbooks[id]\u001b[33m.\u001b[39mendTime) {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 279 |\u001b[39m       \u001b[90m// if(this.books[id].startTime > this.test_set && this.test_now < this.books[id].endTime) {\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 280 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcaution2 \u001b[33m=\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 281 |\u001b[39m       }\u001b[0m\n    at Parser._raise (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Parser.raiseWithData (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Parser.raise (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Parser.unexpected (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:9686:16)\n    at Parser.expect (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:9672:28)\n    at Parser.parseHeaderExpression (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12474:10)\n    at Parser.parseIfStatement (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12555:22)\n    at Parser.parseStatementContent (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12247:21)\n    at Parser.parseStatement (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12202:17)\n    at Parser.parseBlockOrModuleBlockBody (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12782:25)\n    at Parser.parseBlockBody (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12773:10)\n    at Parser.parseBlock (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12757:10)\n    at Parser.parseFunctionBody (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:11724:24)\n    at Parser.parseFunctionBodyAndFinish (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:11708:10)\n    at c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12915:12\n    at Parser.withTopicForbiddingContext (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12020:14)\n    at Parser.parseFunction (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12914:10)\n    at Parser.parseFunctionOrFunctionSent (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:11162:17)\n    at Parser.parseExprAtom (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10998:21)\n    at Parser.parseExprSubscripts (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10655:23)\n    at Parser.parseUpdate (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10635:21)\n    at Parser.parseMaybeUnary (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10613:23)\n    at Parser.parseExprOps (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10474:23)\n    at Parser.parseMaybeConditional (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10448:23)\n    at Parser.parseMaybeAssign (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10411:21)\n    at Parser.parseExpressionBase (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10356:23)\n    at c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10350:39\n    at Parser.allowInAnd (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12045:16)\n    at Parser.parseExpression (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:10350:17)\n    at Parser.parseReturnStatement (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12571:28)\n    at Parser.parseStatementContent (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12250:21)\n    at Parser.parseStatement (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12202:17)\n    at Parser.parseBlockOrModuleBlockBody (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12782:25)\n    at Parser.parseBlockBody (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12773:10)\n    at Parser.parseBlock (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:12757:10)\n    at Parser.parseFunctionBody (c:\\laravel\\vue_spa\\node_modules\\@babel\\parser\\lib\\index.js:11724:24)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      debug: true,
+      message: "",
+      keyword: "",
+      loading: true,
+      errored: false,
+      error: null,
+      show: false,
+      books: {},
+      sort_key: "",
+      sort_asc: true,
+      test_now: "07:20:00",
+      test_set: "08:00:00",
+      test_end: "10:01:00",
+      // caution: false,
+      count: 0,
+      styles: {
+        backgroundColor: '#ccc',
+        color: '#888'
+      }
+    };
+  },
+  created: function created() {
+    this.getBook();
+  },
+  methods: {
+    toggle: function toggle(event) {
+      this.show = !this.show;
+    },
+    clear: function clear() {
+      this.keyword = "";
+    },
+    getBook: function getBook() {
+      var _this = this;
+
+      axios.get("/api/books/").then(function (response) {
+        _this.books = response.data;
+      })["catch"](function (error) {
+        _this.errored = true, _this.error = err;
+        _this.message = error;
+      })["finally"](function () {
+        return _this.loading = false;
+      });
+    },
+    deleteBook: function deleteBook(id) {
+      var _this2 = this;
+
+      axios["delete"]("/api/books/" + id).then(function (response) {
+        _this2.getBook();
+
+        _this2.message = "";
+      })["catch"](function (error) {
+        _this2.message = error;
+      });
+    },
+    sortBy: function sortBy(key) {
+      this.sort_key === key ? this.sort_asc = !this.sort_asc : this.sort_asc = true;
+      this.sort_key = key;
+    },
+    addCount: function addCount() {
+      this.count++;
+    }
+  },
+  computed: {
+    filterdValue: function filterdValue() {
+      var books = [];
+
+      for (var i in this.books) {
+        var book = this.books[i];
+
+        if (book.program.indexOf(this.keyword) !== -1 || book.name.indexOf(this.keyword) !== -1 || book.func.indexOf(this.keyword) !== -1 || book.msg1.indexOf(this.keyword) !== -1 || book.msg2.indexOf(this.keyword) !== -1 || book.msg3.indexOf(this.keyword) !== -1) {
+          books.push(book);
+        }
+      }
+
+      return books;
+    },
+    sortValue: function sortValue() {
+      var _this3 = this;
+
+      if (this.sort_key != "") {
+        var set = 1;
+        this.sort_asc ? set = 1 : set = -1;
+        this.books.sort(function (a, b) {
+          if (a[_this3.sort_key] < b[_this3.sort_key]) return -1 * set;
+          if (a[_this3.sort_key] > b[_this3.sort_key]) return 1 * set;
+          return 0; // this.books.sort((a,b) => {
+          //   if (a[this.sort_key] < b[this.sort_key]) return -1;
+          //   if (a[this.sort_key] > b[this.sort_key]) return 1;
+          //   return 0;
+        });
+        return this.books;
+      } else {
+        return this.books;
+      }
+    },
+    // taskCondition: function() {
+    //   return function(id){
+    //     if(5 < this.count) {
+    //       this.test_caution = true;
+    //     }if(10 < this.count) {
+    //       this.test_caution = false;
+    //   }
+    //   }
+    // },
+    // caution: function() {
+    //   return function(id) {
+    //     if(this.startTime[id] > this.test_set && this.endTime[id] < this.test_end) {
+    //       return this.caution = true;
+    //    }
+    //   }
+    // },
+    caution: function caution() {
+      if (this.test_now > this.test_set && this.test_now < this.test_end) {
+        return this.caution = true;
+      }
+    },
+    isShow: function isShow() {
+      return function (id) {
+        if (this.books[id].startTime < this.test_set && this.test_set < this.books[id].endTime) {
+          // if(this.books[id].startTime > this.test_set && this.test_now < this.books[id].endTime) {
+          return this.caution2 = true;
+        }
+      };
+    }
+  }
+});
 
 /***/ }),
 
@@ -40494,128 +40783,118 @@ var render = function() {
               _c(
                 "tbody",
                 _vm._l(_vm.filterdValue, function(book, index) {
-                  return _vm.isShow(index)
-                    ? _c("tr", { key: book.id }, [
-                        _c("th"),
-                        _vm._v(" "),
-                        _vm.debug
-                          ? _c("td", [_vm._v(_vm._s(book.id))])
-                          : _vm._e(),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.weekday))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.program))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.name))]),
-                        _vm._v(" "),
-                        _c("td", [
-                          book.nca === 1
-                            ? _c("span", [_vm._v("〇")])
-                            : _vm._e(),
-                          book.nca === 0
-                            ? _c("span", { style: _vm.styles }, [_vm._v("×")])
-                            : _vm._e()
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          book.ncb === 1
-                            ? _c("span", [_vm._v("〇")])
-                            : _vm._e(),
-                          book.ncb === 0
-                            ? _c("span", { style: _vm.styles }, [_vm._v("×")])
-                            : _vm._e()
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          book.ncc === 1
-                            ? _c("span", [_vm._v("〇")])
-                            : _vm._e(),
-                          book.ncc === 0
-                            ? _c("span", { style: _vm.styles }, [_vm._v("×")])
-                            : _vm._e()
-                        ]),
-                        _vm._v(" "),
-                        _c("td", { attrs: { align: "center" } }, [
-                          _vm._v(_vm._s(book.func))
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.startTime))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.duration))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.endTime))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.blink))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.msg1))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.msg2))]),
-                        _vm._v(" "),
-                        _c("td", [_vm._v(_vm._s(book.msg3))]),
-                        _vm._v(" "),
-                        _c("td", [
-                          book.isValid == true
-                            ? _c("span", [_vm._v("〇")])
-                            : _vm._e(),
-                          book.isValid == false
-                            ? _c("span", { style: _vm.styles }, [_vm._v("×")])
-                            : _vm._e()
-                        ]),
-                        _vm._v(" "),
+                  return _c("tr", { key: book.id }, [
+                    _c("th"),
+                    _vm._v(" "),
+                    _vm.debug ? _c("td", [_vm._v(_vm._s(book.id))]) : _vm._e(),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.weekday))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.program))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.name))]),
+                    _vm._v(" "),
+                    _c("td", [
+                      book.nca === 1 ? _c("span", [_vm._v("〇")]) : _vm._e(),
+                      book.nca === 0
+                        ? _c("span", { style: _vm.styles }, [_vm._v("×")])
+                        : _vm._e()
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [
+                      book.ncb === 1 ? _c("span", [_vm._v("〇")]) : _vm._e(),
+                      book.ncb === 0
+                        ? _c("span", { style: _vm.styles }, [_vm._v("×")])
+                        : _vm._e()
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [
+                      book.ncc === 1 ? _c("span", [_vm._v("〇")]) : _vm._e(),
+                      book.ncc === 0
+                        ? _c("span", { style: _vm.styles }, [_vm._v("×")])
+                        : _vm._e()
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { attrs: { align: "center" } }, [
+                      _vm._v(_vm._s(book.func))
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.startTime))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.duration))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.endTime))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.blink))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.msg1))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.msg2))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(book.msg3))]),
+                    _vm._v(" "),
+                    _c("td", [
+                      book.isValid == true
+                        ? _c("span", [_vm._v("〇")])
+                        : _vm._e(),
+                      book.isValid == false
+                        ? _c("span", { style: _vm.styles }, [_vm._v("×")])
+                        : _vm._e()
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      {
+                        style: {
+                          backgroundColor: book.bgColor,
+                          color: book.textColor,
+                          fontSize: "16px"
+                        }
+                      },
+                      [_vm._v("文字色")]
+                    ),
+                    _vm._v(" "),
+                    _c("td", [
+                      book.isDone == true
+                        ? _c("span", [_vm._v("済み")])
+                        : _vm._e(),
+                      book.isDone == false
+                        ? _c("span", [_vm._v("未")])
+                        : _vm._e()
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      [
                         _c(
-                          "td",
+                          "router-link",
                           {
-                            style: {
-                              backgroundColor: book.bgColor,
-                              color: book.textColor,
-                              fontSize: "16px"
+                            attrs: {
+                              to: { name: "edit", params: { id: book.id } }
                             }
                           },
-                          [_vm._v("文字色")]
-                        ),
-                        _vm._v(" "),
-                        _c("td", [
-                          book.isDone == true
-                            ? _c("span", [_vm._v("済み")])
-                            : _vm._e(),
-                          book.isDone == false
-                            ? _c("span", [_vm._v("未")])
-                            : _vm._e()
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "td",
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                attrs: {
-                                  to: { name: "edit", params: { id: book.id } }
-                                }
-                              },
-                              [_vm._v("編集")]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c("td", [
-                          _c("input", {
-                            attrs: { type: "button", value: "削除" },
-                            on: {
-                              click: function($event) {
-                                return _vm.deleteBook(book.id)
-                              }
-                            }
-                          })
-                        ]),
-                        _vm._v(
-                          "\r\n              " +
-                            _vm._s(book.isDone) +
-                            "\r\n          "
+                          [_vm._v("編集")]
                         )
-                      ])
-                    : _vm._e()
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("td", [
+                      _c("input", {
+                        attrs: { type: "button", value: "削除" },
+                        on: {
+                          click: function($event) {
+                            return _vm.deleteBook(book.id)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(
+                      "\r\n              " +
+                        _vm._s(book.isDone) +
+                        "\r\n          "
+                    )
+                  ])
                 }),
                 0
               )
